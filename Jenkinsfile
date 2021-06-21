@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout On Slave 1') {
           agent {
             node {
-              label 'slave-1'
+              label 'Slave-1'
             }
           }
           steps {
@@ -22,7 +22,7 @@ pipeline {
         stage('Compile and Package On Slave 1') {
           agent {
             node {
-              label 'slave-1'
+              label 'Slave-1'
             }
           }
           steps {
@@ -33,7 +33,7 @@ pipeline {
         stage('Checkout On Slave 2') {
           agent {
             node {
-              label 'slave-2'
+              label 'Slave-2'
             }
           }
           steps {
@@ -44,7 +44,7 @@ pipeline {
         stage('Unit Test On Slave 2') {
           agent {
             node {
-              label 'slave-2'
+              label 'Slave-2'
             }
           }
           steps {
