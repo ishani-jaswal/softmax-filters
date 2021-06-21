@@ -15,7 +15,7 @@ pipeline {
             }
           }
           steps {
-            git(url: 'https://github.com/siddudubey/softmax-filters.git', branch: 'master')
+            git(url: 'https://github.com/ishani-jaswal/softmax-filters.git', branch: 'master')
           }
         }
         
@@ -37,7 +37,7 @@ pipeline {
             }
           }
           steps {
-            git(url: 'https://github.com/siddudubey/softmax-filters.git', branch: 'master')
+            git(url: 'https://github.com/ishani-jaswal/softmax-filters.git', branch: 'master')
           }
         }
         
