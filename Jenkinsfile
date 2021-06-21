@@ -2,7 +2,7 @@ pipeline {
   agent any
   tools {
       // Install the Maven version configured as "M3" and add it to the path.
-      maven "3.6.0"
+      maven 'apache-maven-3.0.1'
   }
   stages {
     stage('Build and Test') {
